@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*Bootstrap padding fix */
+[class*="col-"]{
+	padding: 1rem;
+}
+
+
+html, body{
+
+	font-family: 'Poppins', 'Tahoma', sans-serif;
+	color: #222;
+	line-height:1.5;
+	margin-top: 30px;
+}
+
+/*navbar*/
+
+.navbar{
+	background-color: #FCECFB !important;
+}
+
+.navbar-brand{
+	margin-left: 50px;
+}
+
+.navbar .navbar-nav .nav-link{
+	color: #222 !important;
+}
+
+.navbar-toggler .navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;..");
+}
+
+
+/* jumbotron */
+
+.jumbotron{
+	background-color: white;
+	width: 1400px;
+	position: relative;
+
+}
+
+.jumbotron img{
+	height: 100%;
+	width: 100%;
+	align-content: center;
+	transform: translateX(18%);
+}
+
+.jumbotron-caption{
+	position: absolute;
+	top: 35%;
+	transform: translateY(-50%);
+	transform: translateX(150%);
+}
+
+.jumbotron-caption h1{
+	font-size: 500%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+}
+
+.jumbotron-caption h3{
+	font-size: 200%;
+	font-weight: 500;
+	color: #FFFFFF;
+	padding-bottom: 1rem;
+}
+
+.button_1{
+	background:#E687E1;
+	border: 0;
+	border-radius: 8px;
+	color: #ffffff;
+	height: 2.5em;
+	text-align: center;
+	width: 15em;
+}
+
+#signup{
+	position: absolute;
+	top: 450px;
+	left: 800px;
+	right: 100px;
+	bottom: 100px;
+}
+
+#subscribe{
+	position: absolute;
+	top: 450px;
+	left: 1150px;
+	right: 100px;
+	bottom: 100px;
+}
+
+
+.container-fluid .col-12 .lead{
+	text-align: center;
+}
+
+#subscribevendor{
+	margin-left: 200px;
+}
+.padding{
+	padding-bottom: 2rem;
+}
+
+/*FEATURES*/
+
+.features{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.features hr{
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+.stwfeatures h4{
+	margin-top: 2rem;
+}
+
+/*Footer*/
+
+footer{
+	background-color: #FCECFB !important;
+	padding-top: 2rem;
+	color: #222;
+	margin-top: 10rem;
+}
+
+
+.footer-links
+{
+	padding-left:0;
+	list-style:none
+}
+.footer-links li
+{
+	text-align: left;
+	display:block;
+
+}
+.footer-links a
+{
+	color:#222;
+	padding-bottom: 1px;
+}
+
+
+/*Forms*/
+.main .container {
+	margin-top: 100px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+	vertical-align: middle;
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.main .container h3{
+    margin-top: 10%;
+}
+
+#formSignup{
+    position: absolute;
+    left: 270px;
+    top: 65px;
+    margin-bottom: 20%;
+}
+
+#reset{
+    position: absolute;
+    left: 15px;
+    margin-bottom: 20%;
+}
+
+#formvendorsignup{
+    position: absolute;
+    left: 270px;
+    top: 64px;
+    margin-bottom: 20%;
+}
+
+#resetvendorsignup{
+    position: absolute;
+    left: 5px;
+}
+
+/*Login*/
+
+#login .modal-content{
+	margin-top: 100px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.2);
+	vertical-align: middle;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+#login .container{
+	width: 30%;
+	position: relative;
+}
+
+#formLogin{
+	position: absolute;
+	left: 50%;
+	width: 30%;
+	margin-left: 20px;
+}
+
+#resetLogin{
+	position: absolute;
+	right: 50%;
+	width: 30%;
+	margin-right: 20px;
+}
+
+#login .container .forgot {
+	position: absolute;
+	top: 120%;
+	right: 0.2%;
+
+}
+
+/* DASHBOARD */
+
+
+/* MARKETPLACE */
+
+/* The sidebar menu */
+.sidenav {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	color: #818181;
+	display: block;
+	margin-top: -3%;
+	margin-left: -10%;
+	margin-right: 5%;
+}
+
+.sidenav a {
+	padding: 5px 8px 5px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	background-color: #ffedfe;
+	color: #818181;
+	display: block;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+	color: deeppink;
+}
+
+/*products*/
+
+.productfirstrow {
+	float: left;
+	width: 25%;
+	margin-left: 40px;
+	margin-top: 95px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.productsecondrow {
+	float: left;
+	width: 25%;
+	margin-left: 50px;
+	margin-top: 95px;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+.productthirdrow {
+	float: left;
+	width: 25%;
+	margin-left: 30px;
+	margin-top: 95px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+/*Product Card*/
+.imgcenter {
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Poppins', 'Tahoma', sans-serif;
+}
+
+/*Price Range*/
+.pricechecked {
+	content: "\20B1";
+	color: deeppink;
+}
+
+/*star rating */
+.checked {
+	color: deeppink;
+}
+
+.vendorname {
+	color: black;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.vendortype {
+	color: black;
+	font-size: 17px;
+	margin-top: 10px;
+}
+.card button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: gray;
+	background-color: #ffedfe;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+.card button:hover {
+	opacity: 0.7;
+}
+
+
+
+@media only screen and (max-width:768px) {
+	/* For mobile phones: */
+	.sidenav,.sidenav a , .sidenav a:hover ,.productfirstrow,.productsecondrow
+	,.productthirdrow,.imgcenter,.card ,.price,.rate,.vendorname,.vendortype,.card button,.card button:hover {
+
+		width:100%;
+	}
+}
+
+/* stw - view vendor profile*/
+
+
+#vendor-pic{
+	height: 150px;
+	width: 150px;
+	position: relative;
+	top: -200px;
+}
+
+.vendorbuttons{
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.vendorbuttons button{
+	display:block;
+	margin-bottom: 20px;
+}
+
+/* save & chat */
+.vendor_buttons{
+	position: relative;
+	top: -280px;
+	left: 570px;
+}
+
+.vendor_buttons button{
+
+	width: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+#savebutton{
+	margin-right: 5px;
+}
+
+.paybutton{
+	color: #494949 !important;
+	text-transform: uppercase;
+	background: #ffffff;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 4px solid #f6b93b !important;
+	border-radius: 6px;
+	display: inline-block;
+	font-size: 1em;
+}
+
+.paybutton:hover{
+	color: #ffffff !important;
+	background: #f6b93b;
+	border-color: #f6b93b !important;
+	transition: all 0.2s ease 0s;
+}
+
+.reqbookingbutton{
+	color: #494949 !important;
+	text-transform: uppercase;
+	background: #ffffff;
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 4px solid #46cb3e !important;
+	border-radius: 6px;
+	display: inline-block;
+}
+
+.reqbookingbutton:hover{
+	color: #ffffff !important;
+	background: #46cb3e;
+	border-color: #46cb3e !important;
+	transition: all 0.2s ease 0s;
+}
+
+.viewportfolio{
+	color: #494949 !important;
+	text-transform: uppercase;
+	background: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 4px solid #4d5ada !important;
+	border-radius: 6px;
+	display: inline-block;
+}
+
+.viewportfolio:hover{
+	color: #ffffff !important;
+	background: #4d5ada;
+	border-color: #4d5ada !important;
+	transition: all 0.2s ease 0s;
+}
+
+
+/* reviews */
+.vendorratings{
+	position: relative;
+	top: -50px;
+	text-align: center;
+}
+
+.vendorratings h1{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.vendorratings p{
+	margin-bottom: 20px;
+	color: #5b5b5b;
+}
+
+.vendorratings .star{
+	margin-left: 40px;
+}
+
+.vendorratings .stars{
+	font-size: 40px;
+	margin-left: -30px;
+}
+
+.rate{
+	margin-bottom: 70px;
+}
+
+#leavereview{
+	margin-top: 30px;
+}
+
+.reportbutton{
+	position: relative;
+	right: -700px;
+	top: 35px;
+	background: #f33c56;
+	border: 0;
+	border-radius: 8px;
+	color: #ffffff;
+	height: 2.0em;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+/* MARKETPLACE */
+
+
+
+
+@media (max-width: 768px) {
+
+	.jumbotron{
+
+		height: 100%;
+		background-position: top center;
+		padding-bottom: 1rem;
+		padding-top: 50px;
+		transform: translateX(-50%);
+		position: relative;
+
+	}
+
+	#signup{
+		position: absolute;
+		top: 500px;
+		left: 800px;
+		right: 0px;
+		bottom: 0px;
+
+	}
+
+	#subscribe{
+		position: absolute;
+		top: 600px;
+		left: 800px;
+		right: 100px;
+		bottom: 100px;
+	}
+
+	#subscribevendor{
+		margin: 0 auto;
+	}
+
+
+	.footer-links li
+	{
+		text-align: center;
+	}
+
+    /* forms */
+    .main .container .form-group{
+        margin-right: 10%;
+        margin-left: 10%;
+        position: relative;
+
+    }
+
+    #formSignup, #formvendorsignup{
+        position: absolute;
+        left: 15%;
+        right: 5%;
+        top: 100%;
+    }
+
+    #reset, #resetvendorsignup{
+        position: absolute;
+        left: 15%;
+        right: 5%;
+        top: 100%;
+    }
+}
+
