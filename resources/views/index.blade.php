@@ -15,7 +15,7 @@
 			</div>
 			<a href="/register">
 			<button type="button" class="btn button_1 btn-lg" id="signup">
-				Sign Up
+				Sign Down
 			</button>
 			</a>
 			<a href="/vendor/register">
